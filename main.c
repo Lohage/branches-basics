@@ -6,7 +6,7 @@ int main()
 {
 	int i, j, n = 1, k;
 	for (k = 0; k < n; k++){
-		srand(50);
+		srand(time(NULL));
 		j = rand()%101;
 		printf("Enter ur number 0 to 100\n");
 		scanf("%d", &i);
