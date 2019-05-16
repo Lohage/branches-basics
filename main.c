@@ -4,6 +4,7 @@
 
 int main()
 {
+	printf("Wellcome to EZ digit game\n");
 	int i, j, n = 1, k;
 	for (k = 0; k < n; k++){
 		j = 54
